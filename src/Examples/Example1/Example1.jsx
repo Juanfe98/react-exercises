@@ -40,11 +40,11 @@ function Example1() {
           />
           <Input
             type="text"
-            name="Name"
-            label="Name"
-            placeholder="Name"
-            value={name}
-            onChange={handleChange(setName)}
+            name="Phone"
+            label="Phone"
+            placeholder="Phone"
+            value={phone}
+            onChange={handleChange(setPhone)}
           />
         </div>
       </div>
