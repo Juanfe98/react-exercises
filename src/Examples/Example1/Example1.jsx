@@ -2,11 +2,12 @@ import { useState } from "react";
 import Input from "../../components/Input";
 /**
  * Currying in JavaScript:
- * Currying is a technique that transforms a function with multiple arguments 
- * into a sequence of functions, each taking a single argument. The purpose is to 
- * create specialized functions by partially applying arguments. It allows you to
- * reuse a common function and generate new functions with predefined arguments.
+ * In this case when we have multiples states separated we could use currying 
+ * to update all the states with only on handle function. 
  *
+ * I think it's not recommended all the time or for differents approachs like 
+ * having all the formData in one state. Every situation has to be examinated
+ * to see if it's clean and worth the implementation.
  */
 function Example1() {
   const [name, setName] = useState('');
