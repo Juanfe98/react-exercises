@@ -19,12 +19,17 @@ function Example1() {
 
   return(
     <div className="flex justify-center">
-      <div className="max-w-md">
-       
+      <div className="max-w-lg">
+       <h1 className="italic text-2xl	leading-4 text-center text-blue-950 mb-11">Curryin in JS</h1>
+        <p className="mb-11">Currying is a technique that transforms a function with multiple arguments 
+          into a sequence of functions, each taking a single argument. The purpose is to
+          create specialized functions by partially applying arguments. It allows you to
+          reuse a common function and generate new functions with predefined arguments.
+        </p>
         <div className="flex flex-col gap-y-2	">
           <Input
             type="text"
-            name="Name"
+            name="name"
             label="Name"
             placeholder="Name"
             value={name}
@@ -32,7 +37,7 @@ function Example1() {
           />
           <Input
             type="text"
-            name="Email"
+            name="email"
             label="Email"
             placeholder="Email"
             value={email}
@@ -40,7 +45,7 @@ function Example1() {
           />
           <Input
             type="text"
-            name="Phone"
+            name="phone"
             label="Phone"
             placeholder="Phone"
             value={phone}
