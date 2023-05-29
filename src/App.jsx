@@ -1,6 +1,5 @@
 import { Disclosure } from '@headlessui/react'
 // import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
-import Example1 from './Examples/Example1/Example1'
 
 function App() {
 
@@ -26,7 +25,7 @@ function App() {
         </Disclosure>
         <main>
           <div className="mx-auto max-w-7xl py-6 sm:px-6 lg:px-8">
-           <Example1 />
+           {/* Your code goes here */}
           </div>
         </main>
       </div>

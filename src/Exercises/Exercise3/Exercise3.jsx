@@ -3,9 +3,7 @@
  * Functionality: When user place numbers on first and second input and hit the
  * button. The sum should appear on the `Total: ` as an output. 
 **/
-import { useState } from "react";
 function Exercise2() {
-  const [number1, setNumber1] = useState();
 
   return (
     <div>
